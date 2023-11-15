@@ -510,10 +510,10 @@ div {
 	animation: fadeIn 1s ease-in-out; 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container{
 		background:rgba(211, 97, 51, 0.6)url(bg.jpg);
-		background-size:contain;
+		background-size:cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-blend-mode:darken;
